@@ -212,7 +212,7 @@
     </ItemGroup>
 
     <Error
-        Condition="'$(DisablePackageReferenceRestrictions)' != 'true' AND @(_ExplicitPackageReference->Count()) != 0"
+        Condition="'$(IsReferenceAssemblyProject)' != 'true' AND '$(DisablePackageReferenceRestrictions)' != 'true' AND @(_ExplicitPackageReference->Count()) != 0"
         Text="PackageReference items are not allowed. Use &lt;Reference&gt; instead to replace the reference to @(_ExplicitPackageReference, ', '). See docs/ReferenceResolution.md for more details." />
 
     <Warning
