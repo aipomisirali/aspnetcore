@@ -9,6 +9,6 @@
     <Compile Include="../src/Properties/AssemblyInfo.cs" />
     <Reference Include="Microsoft.AspNetCore.Routing.Abstractions" />
     <Reference Include="Microsoft.Net.Http.Headers" />
-    <Reference Include="Microsoft.Extensions.HashCodeCombiner.Sources" />
+    <PackageReference Include="Microsoft.Extensions.HashCodeCombiner.Sources" Version="3.1.4-servicing.20181.5" />
   </ItemGroup>
 </Project>

@@ -215,10 +215,6 @@
         Condition="'$(DisablePackageReferenceRestrictions)' != 'true' AND @(_ExplicitPackageReference->Count()) != 0"
         Text="PackageReference items are not allowed. Use &lt;Reference&gt; instead to replace the reference to @(_ExplicitPackageReference, ', '). See docs/ReferenceResolution.md for more details." />
 
-    <ItemGroup>
-      <_ExplicitPackageReference Remove="@(_ExplicitPackageReference)" />
-    </ItemGroup>
-
     <Warning
         Condition="'$(IsReferenceAssemblyProject)' != 'true' AND '$(IsServicingBuild)' != 'true' AND '%(UnusedBaselinePackageReference.Identity)' != ''"
         Code="BUILD001"

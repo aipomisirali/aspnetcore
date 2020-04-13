@@ -8,8 +8,8 @@
     <Compile Include="Microsoft.AspNetCore.Http.Abstractions.Manual.cs" />
     <Compile Include="../src/Properties/AssemblyInfo.cs" />
     <Reference Include="Microsoft.AspNetCore.Http.Features" />
-    <Reference Include="Microsoft.Extensions.ActivatorUtilities.Sources" />
     <Reference Include="Microsoft.Net.Http.Headers" />
+    <PackageReference Include="Microsoft.Extensions.ActivatorUtilities.Sources" Version="3.1.4-servicing.20181.5" />
     <InternalsVisibleTo Include="Microsoft.AspNetCore.Http.Microbenchmarks" Key="" />
   </ItemGroup>
 </Project>

@@ -107,7 +107,7 @@
           Condition=" '@(FilteredOriginalReferences)' != '' " />
       <_ReferenceAssemblyItems
           Include="@(_ExplicitPackageReference->'&lt;PackageReference Include=&quot;%(Identity)&quot; Version=&quot;%(Version)&quot; /&gt;')"
-          Condition=" '@(_ExplicitPackageReference)' != '' " />
+          Condition=" '@(_ExplicitPackageReference)' != '' AND '$(DisablePackageReferenceRestrictions)' == 'true'" />
       <!-- Some src/ projects use Arcade SDK feature to generate InternalsVisibleTo attributes. -->
       <_ReferenceAssemblyItems
           Include="@(InternalsVisibleTo->'&lt;InternalsVisibleTo Include=&quot;%(Identity)&quot; Key=&quot;%(Key)&quot; /&gt;')"

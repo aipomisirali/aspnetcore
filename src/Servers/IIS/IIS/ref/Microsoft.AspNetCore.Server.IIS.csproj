@@ -12,9 +12,9 @@
     <Reference Include="Microsoft.AspNetCore.Hosting.Abstractions" />
     <Reference Include="Microsoft.AspNetCore.Http.Extensions" />
     <Reference Include="Microsoft.AspNetCore.Http.Features" />
-    <Reference Include="Microsoft.Extensions.FileProviders.Physical" />
-    <Reference Include="Microsoft.Extensions.TypeNameHelper.Sources" />
-    <Reference Include="System.IO.Pipelines" />
-    <Reference Include="System.Security.Principal.Windows" />
+    <PackageReference Include="Microsoft.Extensions.FileProviders.Physical" Version="3.1.4" />
+    <PackageReference Include="Microsoft.Extensions.TypeNameHelper.Sources" Version="3.1.4-servicing.20181.5" />
+    <PackageReference Include="System.IO.Pipelines" Version="4.7.0" />
+    <PackageReference Include="System.Security.Principal.Windows" Version="4.7.0" />
   </ItemGroup>
 </Project>

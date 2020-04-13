@@ -7,6 +7,6 @@
     <Compile Include="Microsoft.AspNetCore.Http.Extensions.netcoreapp.cs" />
     <Reference Include="Microsoft.AspNetCore.Http.Abstractions" />
     <Reference Include="Microsoft.Net.Http.Headers" />
-    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.FileProviders.Abstractions" Version="3.1.4" />
   </ItemGroup>
 </Project>

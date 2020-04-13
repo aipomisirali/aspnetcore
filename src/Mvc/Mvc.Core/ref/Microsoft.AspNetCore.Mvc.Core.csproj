@@ -16,11 +16,11 @@
     <Reference Include="Microsoft.AspNetCore.ResponseCaching.Abstractions" />
     <Reference Include="Microsoft.AspNetCore.Routing.Abstractions" />
     <Reference Include="Microsoft.AspNetCore.Routing" />
-    <Reference Include="Microsoft.Extensions.DependencyInjection" />
-    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions" />
-    <Reference Include="Microsoft.Extensions.Logging.Abstractions" />
-    <Reference Include="Microsoft.Extensions.ParameterDefaultValue.Sources" />
-    <Reference Include="Microsoft.Extensions.TypeNameHelper.Sources" />
-    <Reference Include="Microsoft.Extensions.ValueStopwatch.Sources" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.4" />
+    <PackageReference Include="Microsoft.Extensions.FileProviders.Abstractions" Version="3.1.4" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.1.4" />
+    <PackageReference Include="Microsoft.Extensions.ParameterDefaultValue.Sources" Version="3.1.4-servicing.20181.5" />
+    <PackageReference Include="Microsoft.Extensions.TypeNameHelper.Sources" Version="3.1.4-servicing.20181.5" />
+    <PackageReference Include="Microsoft.Extensions.ValueStopwatch.Sources" Version="3.1.4-servicing.20181.5" />
   </ItemGroup>
 </Project>

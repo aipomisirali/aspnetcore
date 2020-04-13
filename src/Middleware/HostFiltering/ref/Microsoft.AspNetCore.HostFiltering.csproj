@@ -7,7 +7,7 @@
     <Compile Include="Microsoft.AspNetCore.HostFiltering.netcoreapp.cs" />
     <Reference Include="Microsoft.AspNetCore.Http" />
     <Reference Include="Microsoft.AspNetCore.Http.Extensions" />
-    <Reference Include="Microsoft.Extensions.Options" />
     <Reference Include="Microsoft.AspNetCore.Hosting.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="3.1.4" />
   </ItemGroup>
 </Project>

@@ -8,8 +8,8 @@
     <Reference Include="Microsoft.AspNetCore.Authorization.Policy" />
     <Reference Include="Microsoft.AspNetCore.SignalR.Common" />
     <Reference Include="Microsoft.AspNetCore.SignalR.Protocols.Json" />
-    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
-    <Reference Include="Microsoft.Extensions.Logging.Abstractions" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.4" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.1.4" />
     <InternalsVisibleTo Include="Microsoft.AspNetCore.SignalR.Tests.Utils" Key="" />
     <InternalsVisibleTo Include="Microsoft.AspNetCore.SignalR.Microbenchmarks" Key="" />
     <InternalsVisibleTo Include="Microsoft.AspNetCore.SignalR.Tests" Key="" />
